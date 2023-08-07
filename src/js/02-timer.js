@@ -29,11 +29,10 @@ const options = {
       if(diffData <= 0){
         Notiflix.Notify.failure('Please choose a date in the future');
         refs.startBtn.disabled = true;
-        // refs.startBtn.setAttribute('disabled', 'disabled');
-
+        
       } else {
         refs.startBtn.disabled = false;
-        // refs.startBtn.removeAttribute('disabled', 'disabled');
+  
       }
 
     },
